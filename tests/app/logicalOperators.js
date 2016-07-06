@@ -1,4 +1,4 @@
-require('../../app/logicalOperators');
+var logicalOperatorsAnswers = require('../../app/logicalOperators').logicalOperatorsAnswers;
 var expect = require('chai').expect;
 
 

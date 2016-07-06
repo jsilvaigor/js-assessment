@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-require('../../app/count');
+var countAnswers = require('../../app/count').countAnswers;
 var expect = require('chai').expect;
 var sinon = require('sinon');
 

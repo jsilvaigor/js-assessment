@@ -1,4 +1,4 @@
-require('../../app/flowControl');
+var flowControlAnswers = require('../../app/flowControl').flowControlAnswers;
 var expect = require('chai').expect;
 
 
