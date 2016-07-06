@@ -1,4 +1,4 @@
-require('../../app/modules');
+var modulesAnswers = require('../../app/modules').modulesAnswers;
 var expect = require('chai').expect;
 
 

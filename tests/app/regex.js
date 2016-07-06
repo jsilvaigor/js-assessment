@@ -1,4 +1,4 @@
-require('../../app/regex');
+var regexAnswers = require('../../app/regex').regexAnswers;
 var expect = require('chai').expect;
 
 

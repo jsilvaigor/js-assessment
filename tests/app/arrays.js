@@ -1,4 +1,4 @@
-require('../../app/arrays');
+var arraysAnswers = require('../../app/arrays').arraysAnswers;
 var expect = require('chai').expect;
 
 describe('arrays', function() {

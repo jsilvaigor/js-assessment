@@ -1,4 +1,4 @@
-require('../../app/bestPractices');
+var bestPracticesAnswers = require('../../app/bestPractices').bestPracticesAnswers;
 var expect = require('chai').expect;
 
 

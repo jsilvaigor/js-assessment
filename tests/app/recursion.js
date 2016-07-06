@@ -1,4 +1,4 @@
-require('../../app/recursion');
+var recursionAnswers = require('../../app/recursion').recursionAnswers;
 var expect = require('chai').expect;
 var _ = require('underscore');
 
