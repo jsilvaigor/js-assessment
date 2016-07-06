@@ -1,6 +1,8 @@
+var _ = require('underscore');
+
 exports.arraysAnswers = {
   indexOf: function(arr, item) {
-
+    return _.indexOf(arr,item);
   },
 
   sum: function(arr) {
