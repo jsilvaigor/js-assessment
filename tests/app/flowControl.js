@@ -1,7 +1,6 @@
-if ( typeof window === 'undefined' ) {
-  require('../../app/flowControl');
-  var expect = require('chai').expect;
-}
+require('../../app/flowControl');
+var expect = require('chai').expect;
+
 
 describe('flow control', function() {
   it('you should be able to conditionally branch your code', function() {

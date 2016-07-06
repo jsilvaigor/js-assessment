@@ -1,7 +1,5 @@
-if ( typeof window === 'undefined' ) {
-  require('../../app/numbers');
-  var expect = require('chai').expect;
-}
+require('../../app/numbers');
+var expect = require('chai').expect;
 
 describe('numbers', function() {
   describe('binary operations', function() {

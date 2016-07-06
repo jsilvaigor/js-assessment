@@ -1,7 +1,6 @@
-if ( typeof window === 'undefined' ) {
-  require('../../app/strings');
-  var expect = require('chai').expect;
-}
+require('../../app/strings');
+var expect = require('chai').expect;
+
 
 describe('strings', function() {
   it('you should be able to reduce duplicate characters to a desired minimum', function() {

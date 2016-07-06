@@ -1,7 +1,6 @@
-if ( typeof window === 'undefined' ) {
-  require('../../app/logicalOperators');
-  var expect = require('chai').expect;
-}
+require('../../app/logicalOperators');
+var expect = require('chai').expect;
+
 
 describe('logical operators', function(){
   it('you should be able to work with logical or', function() {

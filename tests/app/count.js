@@ -1,9 +1,8 @@
 /* eslint-disable no-console */
-if ( typeof window === 'undefined' ) {
-  require('../../app/count');
-  var expect = require('chai').expect;
-  var sinon = require('sinon');
-}
+require('../../app/count');
+var expect = require('chai').expect;
+var sinon = require('sinon');
+
 
 /**
   * This test describes a function, count, that takes two arguments: a starting number,

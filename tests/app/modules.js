@@ -1,7 +1,6 @@
-if ( typeof window === 'undefined' ) {
-  require('../../app/modules');
-  var expect = require('chai').expect;
-}
+require('../../app/modules');
+var expect = require('chai').expect;
+
 
 describe('the module pattern', function() {
   it('you should be able to create a function that returns a module', function() {

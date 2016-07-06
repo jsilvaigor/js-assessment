@@ -1,7 +1,6 @@
-if ( typeof window === 'undefined' ) {
-  require('../../app/objects');
-  var expect = require('chai').expect;
-}
+require('../../app/objects');
+var expect = require('chai').expect;
+
 
 describe('objects and context', function() {
   var a;

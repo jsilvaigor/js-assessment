@@ -1,5 +1,4 @@
 /* eslint-disable */
-exports = typeof window === 'undefined' ? global : window;
 
 /**
  * This file defines an object with some methods. Some of these methods are
@@ -8,13 +7,6 @@ exports = typeof window === 'undefined' ? global : window;
  */
 
 exports.bestPracticesAnswers = {
-  globals: function() {
-    myObject = {
-      name: 'Jory'
-    };
-
-    return myObject;
-  },
 
   parseInt: function(num) {
     return parseInt(num);

@@ -1,5 +1,3 @@
-exports = typeof window === 'undefined' ? global : window;
-
 exports.flowControlAnswers = {
   fizzBuzz: function(num) {
     // write a function that receives a number as its argument;
